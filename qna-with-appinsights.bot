@@ -1,0 +1,37 @@
+{
+    "name": "qna-with-appinsights",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "id": "1",
+            "name": "development",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages"
+        },        
+        {
+            "type": "qna",
+            "name": "qna-with-insights-QnAMaker",
+            "id": "34",
+            "kbId": "38d04efc-f401-4d46-9000-f92445e90d7e",
+            "subscriptionKey": "",
+            "endpointKey": "8704f0e3-7efc-48c0-87c5-626e6e5003a6",
+            "hostname": "https://qnmaker1.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "",
+            "subscriptionId": "",
+            "resourceGroup": "",
+            "name": "",
+            "serviceName": "",
+            "instrumentationKey": "",
+            "applicationId": "",
+            "apiKeys": {},
+            "id": "4"
+        },
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
