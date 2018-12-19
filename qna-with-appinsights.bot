@@ -12,11 +12,11 @@
         },        
         {
             "type": "qna",
-            "name": "qna-with-insights-QnAMaker",
+	        "name": "qna-with-insights-QnAMaker",
             "id": "34",
-            "kbId": "38d04efc-f401-4d46-9000-f92445e90d7e",
+            "kbId": "63078f0c-1bb2-4a8e-8747-f9f5e18a0ffc",
             "subscriptionKey": "",
-            "endpointKey": "8704f0e3-7efc-48c0-87c5-626e6e5003a6",
+            "endpointKey": "df4e336b-da65-42cc-b3c0-b20552a2fb45",
             "hostname": "https://qnmaker1.azurewebsites.net/qnamaker"
         },
         {
@@ -30,7 +30,7 @@
             "applicationId": "",
             "apiKeys": {},
             "id": "4"
-        },
+        }
     ],
     "padlock": "",
     "version": "2.0"
